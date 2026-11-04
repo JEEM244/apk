@@ -1,47 +1,51 @@
 # DroidForge
 
-Aplicación ligera para Windows para compilar proyectos Android e instalar APK en un teléfono conectado por USB, sin Android Studio.
+DroidForge es una aplicación para Windows que estoy desarrollando para probar una forma más sencilla de compilar proyectos Android e instalar el APK en un teléfono conectado por USB, sin tener que abrir Android Studio.
 
-## Estado
+La aplicación todavía es una primera versión y tiene limitaciones.
 
-Primera base del proyecto: Electron + React + TypeScript, importación de proyectos Gradle, generador de proyecto Kotlin, compilación debug e instalación por ADB.
+## Qué se puede hacer
 
-## Requisitos de desarrollo
+- Importar un proyecto Android Gradle.
+- Crear un proyecto Kotlin básico.
+- Preparar las herramientas de Android necesarias.
+- Compilar una versión debug del proyecto.
+- Instalar el APK en un teléfono conectado por USB mediante ADB.
 
-- Windows 10/11 x64
-- Node.js 20+
-- Para compilar apps: JDK 17, Android SDK Command-line Tools, Android Platform Tools, Android Build Tools y Gradle.
-- Android con Opciones de desarrollador y Depuración USB activadas.
+## Requisitos
 
-## Desarrollo
+- Windows 10 u 11 de 64 bits.
+- Node.js 20 o superior.
+- Para compilar: JDK 17, Android SDK Command-line Tools, Platform Tools, Build Tools y Gradle.
+- Un teléfono Android con depuración USB activada y autorizado en la computadora.
+
+## Ejecutar en desarrollo
 
 ```powershell
 npm install
 npm run dev
 ```
 
-## Preparar las herramientas Android
+## Preparar las herramientas
 
-Abre PowerShell en la carpeta del repositorio:
+Desde PowerShell, en la carpeta del proyecto:
 
 ```powershell
 Set-ExecutionPolicy -Scope Process Bypass
 .\scripts\setup-tools.ps1
 ```
 
-El script descarga las herramientas oficiales necesarias sin instalar Android Studio. Requiere internet durante la instalación inicial.
+La preparación inicial necesita internet para descargar las herramientas. Revisa el script antes de ejecutarlo y asegúrate de usar las descargas oficiales.
 
-## Uso
+## Limitaciones
 
-1. Abre DroidForge.
-2. Importa un proyecto Android Gradle o crea uno Kotlin de ejemplo.
-3. Pulsa **Compilar APK**.
-4. Conecta el celular por USB y acepta la autorización de depuración.
-5. Instala el APK desde la aplicación.
+- Por ahora genera APK de depuración; no prepara una versión firmada para publicar.
+- El generador crea una Activity Kotlin básica, no es un editor completo.
+- Los proyectos importados deben ser compatibles con Android Gradle.
+- La primera descarga de herramientas puede ocupar bastante espacio.
 
-## Limitaciones de esta primera versión
+## Tecnologías
 
-- Genera APK debug, no APK firmado de publicación.
-- El generador crea una Activity Kotlin mínima; no es todavía un editor de código completo.
-- Los proyectos importados deben ser proyectos Android Gradle compatibles.
-- La primera instalación de herramientas ocupa espacio; Android Studio no es necesario.
+Electron, React, TypeScript, Node.js, Gradle y ADB.
+
+La idea es seguir mejorando el flujo de compilación y hacer que sea más fácil revisar qué herramientas faltan cuando algo no funciona.
