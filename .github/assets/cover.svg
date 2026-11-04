@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+<title id="t">DROIDFORGE</title><desc id="d">Importa proyectos Android, compila APK de prueba y conecta por ADB</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171C24"/><stop offset="1" stop-color="#293B40"/></linearGradient><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".1"/></pattern></defs>
+<rect width="1200" height="320" rx="24" fill="url(#bg)"/><rect width="1200" height="320" rx="24" fill="url(#dots)"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif"><rect x="66" y="54" width="165" height="30" rx="15" fill="#7BD7B0" opacity=".16" stroke="#7BD7B0" stroke-opacity=".6"/><text x="148" y="74" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2" fill="#7BD7B0">ANDROID BUILD TOOL</text><text x="66" y="158" font-size="52" font-weight="750" fill="#F8FAFC">DROIDFORGE</text><text x="69" y="199" font-size="19" fill="#D5DFEA">Importa proyectos Android, compila APK de prueba y conecta por ADB</text><path d="M68 229H390" stroke="#7BD7B0" stroke-width="3" stroke-linecap="round"/></g>
+
+<g transform="translate(715 35)">
+ <rect x="0" y="0" width="390" height="235" rx="16" fill="#111923" stroke="#536873" stroke-width="2"/>
+ <rect x="0" y="0" width="390" height="34" rx="16" fill="#2C3B45"/><rect y="17" width="390" height="17" fill="#2C3B45"/>
+ <circle cx="20" cy="17" r="4" fill="#E7786E"/><circle cx="36" cy="17" r="4" fill="#E7C06E"/><circle cx="52" cy="17" r="4" fill="#7BD7B0"/>
+ <rect x="18" y="52" width="225" height="162" rx="9" fill="#1C2B34"/>
+ <g fill="#7BD7B0"><rect x="34" y="69" width="93" height="8" rx="4"/><rect x="34" y="93" width="175" height="6" rx="3" opacity=".5"/><rect x="34" y="110" width="142" height="6" rx="3" opacity=".5"/><rect x="34" y="127" width="162" height="6" rx="3" opacity=".5"/></g>
+ <rect x="35" y="155" width="110" height="38" rx="8" fill="#2D725C"/><text x="90" y="179" fill="#E6FFF2" font-family="Segoe UI,Arial" font-size="12" text-anchor="middle">Build APK</text>
+ <g transform="translate(275 58)"><rect width="76" height="136" rx="13" fill="#080F14" stroke="#7BD7B0" stroke-width="2"/><rect x="8" y="14" width="60" height="108" rx="7" fill="#1D453A"/><path d="M22 55a16 16 0 0 1 32 0v17H22z" fill="#7BD7B0"/><path d="M25 51l-6-9m36 9 6-9" stroke="#7BD7B0" stroke-width="3" stroke-linecap="round"/><circle cx="38" cy="127" r="3" fill="#7BD7B0"/></g>
+ <path d="M247 118h24m-9-9 9 9-9 9" fill="none" stroke="#7BD7B0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
